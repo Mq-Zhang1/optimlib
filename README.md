@@ -86,7 +86,7 @@ python3 Gradient.py -t 4
 ```
 By running this test function, we could intuitively observe the convergence rate of different algorithm. Here choose 5 methods: `Gradient`,`Momentum`,`Nesterov`,`Adagrad`,`RMSprop`
 
-![1](https://github.com/Mq-Zhang1/optimlib/blob/main/image/gradient.mp4 =250x250)
+![1](https://github.com/Mq-Zhang1/optimlib/blob/main/image/Minimax.png)
 
 ## Stochastic Search
 Using Rosenbrock:  $ f(x) = (1-x_1)^2+100(x_2-x_1^2)^2$ as the test function.
