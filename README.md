@@ -15,7 +15,6 @@ Main otpimization types:
 	* Value Iteration, Policy Iteration
 5. Reinforcement Learning
 	* Monte Carlo Policy Evaluation, Temporal Difference Policy Evaluation, Q-learning
-	* Monte Carlo Tree Search 
 
 # Environment
 
@@ -30,7 +29,7 @@ Main otpimization types:
 	
 	> pip install -r requirements.txt
 	
-3. See function usage `README.md` in each optimization folder 
+3. See function usage `HANDBOOK.md` in the folder 
 
 # Test
 ## Descent Search
