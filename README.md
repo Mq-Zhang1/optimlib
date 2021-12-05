@@ -86,26 +86,33 @@ python3 Gradient.py -t 4
 ```
 By running this test function, we could intuitively observe the convergence rate of different algorithm. Here choose 5 methods: `Gradient`,`Momentum`,`Nesterov`,`Adagrad`,`RMSprop`
 
-![1](https://github.com/Mq-Zhang1/optimlib/blob/main/image/Minimax.png)
+https://user-images.githubusercontent.com/94815641/144762003-03c74fb3-1a12-43cb-a5fa-642d3eec1b49.mp4
+
 
 ## Stochastic Search
 Using Rosenbrock:  $ f(x) = (1-x_1)^2+100(x_2-x_1^2)^2$ as the test function.
 
 * Simulated Annealing
-![2](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/sa.mp4)
+
+https://user-images.githubusercontent.com/94815641/144762028-fe0e66a0-7240-4e64-9792-fe28d5166c14.mp4
+
 
 * Cross Entropy Search
-![3](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/cg.mp4)
+
+https://user-images.githubusercontent.com/94815641/144762058-de5e9cdd-a79c-42cc-89d1-dad21a0121cf.mp4
+
 
 * Search Gradient
-![4](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/sg.mp4)
+
+https://user-images.githubusercontent.com/94815641/144762073-87cd2401-e685-4166-b2e1-aaea25ec4402.mp4
+
 
 To test performance and obtain convergence plot:
 
 ```
 python3 Stochastic.py
 ```
-![5](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/sa_better.png)
+![5](https://github.com/Mq-Zhang1/optimlib/blob/main/image/sa_better.png)
 
 ## Classical Search
 Classical Search includes many important algorithms for solving maze/grid path/traffic problem and various game AI strategies. Many advanced algorithms are now widely used in robot area for navigating etc. Here mainly includes 3 parts:
@@ -113,9 +120,16 @@ Classical Search includes many important algorithms for solving maze/grid path/t
 * Basic Algorithm BFS, DFS, Dijkstra and A\*, Test these method under the classical problem scenario - grid search.
 	
 	* Dijkstra algorithm
-	![6](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/dijstra.mp4)
+	
+
+https://user-images.githubusercontent.com/94815641/144762104-fed80a36-634d-4174-a85b-822c57c33f99.mp4
+
+
 	* A\* algorithm
-	![7](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/A*.mp4)
+	
+
+https://user-images.githubusercontent.com/94815641/144762112-d5cc3d16-1337-4c46-afda-1ea573d8f90d.mp4
+
 
 To get Dijkstra graph, run:
 ```
@@ -127,8 +141,10 @@ python3 ClassicSearch.py -t 2
 ```
 
 * General Path Finding: RRT algorithm, the core idea of this algorithm is quite simple, but it's still a popular way in robot path planning. In this library, the code supports more than 3 dimension search.
-	
-![8](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/RRT.mp4)
+
+
+https://user-images.githubusercontent.com/94815641/144762126-4ee5f12e-f51b-4698-a74d-39c7d3222495.mp4
+
 
 To get above graph, run:
 ```
@@ -154,14 +170,18 @@ python3 ClassicSearch.py -t 3
 	```
 
 * Expectimax Result:
-![8](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/expect.mp4)
 
-![9](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/expect.png)
+https://user-images.githubusercontent.com/94815641/144762142-9e6743bb-47fd-46b9-b54b-ec3b2922d75e.mp4
+
+![9](https://github.com/Mq-Zhang1/optimlib/blob/main/image/expect.png)
 
 * Minimax Result:
-![10](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/minimax.mp4)
 
-![9](/Users/z.mq/Desktop/hw code/CSE 257/Proj/PLot/Minimax.png)
+https://user-images.githubusercontent.com/94815641/144762158-83bd3cf2-1e4e-46fb-90f1-b2c3bb949766.mp4
+
+![9](https://github.com/Mq-Zhang1/optimlib/blob/main/image/Minimax.png)
+
+
 It is obvious that the score for Minimax is much lower than Expectimax
 
 ## Markov Decision Process
