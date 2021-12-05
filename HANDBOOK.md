@@ -56,9 +56,11 @@ $$
 
 ### <span style="color:darkred">CLASS Adagrad(\*args,**kargs)</span>
 Adagrad automatically tune the learning rate for each dimension of the varaibles
+
 $$
 x_{t+1} = x_t-\frac{\eta}{\sqrt{G_t+\epsilon I}}\nabla f(x_t)
 $$
+
 > Parameters:
 >> * epsilon: $\epsilon$ hyperparamter, used for avoid dividing 0, default $1e^{-6}$
 >> * lr: nominator in $\frac{\eta}{\sqrt{G_t+\epsilon I}}$, default 0.01
